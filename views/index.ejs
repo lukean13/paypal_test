@@ -8,8 +8,8 @@
   <form id="payment-form" action="/checkout" method="post">
     <div id="dropin-container"></div>
     <input type="submit" />
-    <input type="hidden" id="payment_method_nonce" />
-    <input type="hidden" id="payment_amount" />
+    <input type="hidden" id="payment_method_nonce" name="payment_method_nonce" />
+    <input type="hidden" id="payment_amount" name="payment_amount"/>
   </form>
   <script type="text/javascript">
     const form = document.getElementById('payment-form');  
